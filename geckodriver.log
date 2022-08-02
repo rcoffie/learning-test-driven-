@@ -7,8 +7,9 @@ Read port: 64768
 1659439095918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile4gNCze\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:64757/devtools/browser/c4b2734d-61df-432e-94fe-9f22fcc0f131
-1659439145534	geckodriver	INFO	Listening on 127.0.0.1:64835
-1659439148548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64836" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileHSphKu"
+1659439864793	Marionette	INFO	Stopped listening on port 64768
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "64836" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileHSphKu"
 1659439149472	Marionette	INFO	Marionette enabled
 1659439149485	Marionette	INFO	Listening on port 64846
 WebDriver BiDi listening on ws://localhost:64836
@@ -16,8 +17,9 @@ Read port: 64846
 1659439149789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileHSphKu\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:64836/devtools/browser/c809ee42-6043-421f-9202-5fd2ca381590
-1659439214134	geckodriver	INFO	Listening on 127.0.0.1:64908
-1659439217193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64909" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefHAAF2"
+1659439865465	Marionette	INFO	Stopped listening on port 64846
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "64909" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefHAAF2"
 1659439218134	Marionette	INFO	Marionette enabled
 1659439218149	Marionette	INFO	Listening on port 64920
 WebDriver BiDi listening on ws://localhost:64909
@@ -25,17 +27,15 @@ Read port: 64920
 1659439218459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilefHAAF2\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:64909/devtools/browser/3e24800f-3b99-4a8d-8cd5-466bbe78d77f
-1659439361208	geckodriver	INFO	Listening on 127.0.0.1:65040
-1659439364249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile4RVPDm"
-1659439365205	Marionette	INFO	Marionette enabled
-1659439365221	Marionette	INFO	Listening on port 65053
-WebDriver BiDi listening on ws://localhost:65041
-Read port: 65053
-1659439365517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile4RVPDm\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:65041/devtools/browser/bef1df91-d5d1-4de4-a797-dfd92b040c1e
-1659439369294	Marionette	INFO	Stopped listening on port 65053
+1659439866223	Marionette	INFO	Stopped listening on port 64920
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659439866368	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.js :: allowAllCerts.disable :: line 57"  data: no] Stack trace: allowAllCerts.disable()@cert.js:57
+destroy()@Session.jsm:207
+deleteSession()@WebDriverBiDi.jsm:148
+stop()@WebDriverBiDi.jsm:227
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 !!! error running onStopped callback: TypeError: callback is not a function
+unction
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
@@ -91,3 +91,39 @@ JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
 JavaScript error: , line 0: uncaught exception: 2147500036
+1659441176934	geckodriver	INFO	Listening on 127.0.0.1:49982
+1659441179965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewNdOEh"
+1659441181276	Marionette	INFO	Marionette enabled
+1659441181302	Marionette	INFO	Listening on port 49994
+WebDriver BiDi listening on ws://localhost:49983
+Read port: 49994
+1659441181722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilewNdOEh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49983/devtools/browser/b8a896bf-a4d7-4bfa-a604-0e3f8486487b
+1659441187063	Marionette	INFO	Stopped listening on port 49994
+!!! error running onStopped callback: TypeError: callback is not a function
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1659441211877	geckodriver	INFO	Listening on 127.0.0.1:50083
+1659441214914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50084" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilerydVtZ"
+1659441216298	Marionette	INFO	Marionette enabled
+1659441216316	Marionette	INFO	Listening on port 50095
+WebDriver BiDi listening on ws://localhost:50084
+Read port: 50095
+1659441216820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilerydVtZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50084/devtools/browser/60450c27-4390-4186-8406-911ce7fe9da7
+1659441221967	Marionette	INFO	Stopped listening on port 50095
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/SearchService.jsm, line 315: NS_ERROR_ABORT: SearchService initialization failed
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+!!! error running onStopped callback: TypeError: callback is not a function
